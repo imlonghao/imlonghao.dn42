@@ -3,11 +3,11 @@ name: Deploy
 on: [push]
 
 jobs:
-  preview:
+  push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: DNSControl preview
+      - name: DNSControl push
         uses: koenrh/dnscontrol-action@v3
         env:
           POWERDNS_URL: ${{ secrets.POWERDNS_URL }}
