@@ -1,0 +1,7 @@
+{
+  "powerdns": {
+    "apiUrl": "$POWERDNS_URL",
+    "apiKey": "$POWERDNS_KEY",
+    "serverName": "localhost"
+  }
+}
