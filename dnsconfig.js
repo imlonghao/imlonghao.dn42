@@ -7,4 +7,4 @@ DEFAULTS(
   NAMESERVER_TTL(86400)
 );
 
-require('./imlonghao.js');
+require_glob("./domains/", false);
