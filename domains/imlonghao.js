@@ -7,7 +7,8 @@ D('imlonghao.dn42', REG_NONE,
   A('us2', '172.22.68.5'),
   A('mail', '172.22.68.6'),
   A('home', '172.22.68.7'),
-  A('ns', '172.22.68.8')
+  A('ns', '172.22.68.8'),
+  A('au1', '172.22.68.9')
 );
 
 D(REV('172.22.68.0/27'), REG_NONE,
@@ -19,7 +20,8 @@ D(REV('172.22.68.0/27'), REG_NONE,
   PTR('5', 'us2.imlonghao.dn42.'),
   PTR('6', 'mail.imlonghao.dn42.'),
   PTR('7', 'home.imlonghao.dn42.'),
-  PTR('8', 'ns.imlonghao.dn42.')
+  PTR('8', 'ns.imlonghao.dn42.'),
+  PTR('9', 'au1.imlonghao.dn42.')
 );
 
 D(REV('fd21:5c0c:9b7e::/48'), REG_NONE,
@@ -30,5 +32,6 @@ D(REV('fd21:5c0c:9b7e::/48'), REG_NONE,
   PTR('fd21:5c0c:9b7e:4::', 'de1.imlonghao.dn42.'),
   PTR('fd21:5c0c:9b7e:5::', 'us2.imlonghao.dn42.'),
   PTR('fd21:5c0c:9b7e:6::', 'mail.imlonghao.dn42.'),
-  PTR('fd21:5c0c:9b7e:7::', 'home.imlonghao.dn42.')
+  PTR('fd21:5c0c:9b7e:7::', 'home.imlonghao.dn42.'),
+  PTR('fd21:5c0c:9b7e:9::', 'au1.imlonghao.dn42.')
 );
