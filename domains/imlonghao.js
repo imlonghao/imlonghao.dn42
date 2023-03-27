@@ -35,4 +35,3 @@ D(REV('fd21:5c0c:9b7e::/48'), REG_NONE,
   PTR('fd21:5c0c:9b7e:7::', 'home.imlonghao.dn42.'),
   PTR('fd21:5c0c:9b7e:9::', 'au1.imlonghao.dn42.')
 );
-
