@@ -10,6 +10,7 @@ D('imlonghao.dn42', REG_NONE
   , A('ns', '172.22.68.8')
   , A('au1', '172.22.68.9')
   , A('jp1', '172.22.68.10')
+  , A('us3', '172.22.68.11')
 );
 
 D(REV('172.22.68.0/27'), REG_NONE
@@ -24,6 +25,7 @@ D(REV('172.22.68.0/27'), REG_NONE
   , PTR('8', 'ns.imlonghao.dn42.')
   , PTR('9', 'au1.imlonghao.dn42.')
   , PTR('10', 'jp1.imlonghao.dn42.')
+  , PTR('11', 'us3.imlonghao.dn42.')
 );
 
 D(REV('fd21:5c0c:9b7e::/48'), REG_NONE
