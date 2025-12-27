@@ -12,6 +12,18 @@ D('imlonghao.dn42', REG_NONE
   , A('jp1', '172.22.68.10')
   , A('us3', '172.22.68.11')
   , A('tw1', '172.22.68.12')
+  , AAAA('ns',  'fd21:5c0c:9b7e::8')
+  , AAAA('us1', 'fd21:5c0c:9b7e:1::1')
+  , AAAA('sg1', 'fd21:5c0c:9b7e:2::1')
+  , AAAA('hk1', 'fd21:5c0c:9b7e:3::1')
+  , AAAA('de1', 'fd21:5c0c:9b7e:4::1')
+  , AAAA('us2', 'fd21:5c0c:9b7e:5::1')
+  , AAAA('no1', 'fd21:5c0c:9b7e:6::1')
+  , AAAA('home','fd21:5c0c:9b7e:7::1')
+  , AAAA('au1', 'fd21:5c0c:9b7e:9::1')
+  , AAAA('jp1', 'fd21:5c0c:9b7e:10::1')
+  , AAAA('us3', 'fd21:5c0c:9b7e:11::1')
+  , AAAA('tw1', 'fd21:5c0c:9b7e:12::1')
 );
 
 D(REV('172.22.68.0/27'), REG_NONE
