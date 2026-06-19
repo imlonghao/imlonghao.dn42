@@ -59,6 +59,6 @@ D(REV('fd21:5c0c:9b7e::/48'), REG_NONE
   , PTR('fd21:5c0c:9b7e:12::1', 'tw1.imlonghao.dn42.')
 );
 
-D('8.8.8.1.4.2.4.0.tel.dn42'), REG_NONE
+D('8.8.8.1.4.2.4.0.tel.dn42', REG_NONE
   , NAPTR("*", 10, 10, "u", "E2U+SIP", "!^(.*)$!sip:\\1@pbx.imlonghao.dn42!", ".")
 );
