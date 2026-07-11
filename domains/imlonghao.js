@@ -12,6 +12,7 @@ D('imlonghao.dn42', REG_NONE
   , A('jp1', '172.22.68.10')
   , A('us3', '172.22.68.11')
   , A('tw1', '172.22.68.12')
+  , A('us4', '172.22.68.13')
   , A('pbx', '172.22.68.7')
   , AAAA('ns',  'fd21:5c0c:9b7e::8')
   , AAAA('us1', 'fd21:5c0c:9b7e:1::1')
@@ -25,6 +26,7 @@ D('imlonghao.dn42', REG_NONE
   , AAAA('jp1', 'fd21:5c0c:9b7e:10::1')
   , AAAA('us3', 'fd21:5c0c:9b7e:11::1')
   , AAAA('tw1', 'fd21:5c0c:9b7e:12::1')
+  , AAAA('us4', 'fd21:5c0c:9b7e:13::1')
   , AAAA('pbx','fd21:5c0c:9b7e:7::1')
 );
 
@@ -42,6 +44,7 @@ D(REV('172.22.68.0/27'), REG_NONE
   , PTR('10', 'jp1.imlonghao.dn42.')
   , PTR('11', 'us3.imlonghao.dn42.')
   , PTR('12', 'tw1.imlonghao.dn42.')
+  , PTR('13', 'us4.imlonghao.dn42.')
 );
 
 D(REV('fd21:5c0c:9b7e::/48'), REG_NONE
@@ -57,6 +60,7 @@ D(REV('fd21:5c0c:9b7e::/48'), REG_NONE
   , PTR('fd21:5c0c:9b7e:10::1', 'jp1.imlonghao.dn42.')
   , PTR('fd21:5c0c:9b7e:11::1', 'us3.imlonghao.dn42.')
   , PTR('fd21:5c0c:9b7e:12::1', 'tw1.imlonghao.dn42.')
+  , PTR('fd21:5c0c:9b7e:13::1', 'us4.imlonghao.dn42.')
 );
 
 D('8.8.8.1.4.2.4.0.tel.dn42', REG_NONE
